@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-image: url(https://cleverprogrammer.github.io/images/sun-pattern.png);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+li{
+    float: left;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#active{
+    background-color: orangered;
+}
+
+#act:hover{
+    background-color: royalblue;
+}
+.main-content{
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5rem;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 71px;
+    padding-bottom: 80px;
+}
+
+h1{
+   margin-bottom: 0.5rem; 
+   margin-top: 0;
+   font-family: inherit;
+   font-size: 2.5rem;
+   text-align: center;
+   font-weight: 500;
+   line-height: 1.2;
+   color: inherit;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    color: inherit;
+}

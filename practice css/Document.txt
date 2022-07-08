@@ -1,0 +1,65 @@
+Classes and ID Selectors :
+    <div> : 
+    <dir> :
+
+
+Colors :
+    <h1> Colors applying using css </h1>
+    <h1 style="background-color: Tomato"> Tomato </h1>
+    <h1 style="background-color: Orange"> Orange </h1>
+
+
+Floating :
+    left- The element floats to the left to its container
+    right- The element floats to the right to its container
+    none- The element does not float (will be displayed just where it occurs in the text). This is default.
+    inherit- The element inherits the float value of its parent
+    in its simplest use, the float property can be used to wrap text around images.
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex expedita quos, sit porro labore inventore laboriosam minus iusto.</p>
+
+     <p><img src="images/orange.jpg" alt="orange" style="width:170px;height:170px;margin-right:15px;float:right;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ex expedita quos, sit porro labore inventore laboriosam minus iusto, quidem suscipit asperiores cumque ipsa, exercitationem voluptatem. Facere, quod corporis. Vel!Lorem</p>
+
+
+Positioning :
+    position: static;
+    position: relative;
+    position: fixed;
+    position: absolute;
+    position: sticky;
+
+    Elements are then positioned using the top, bottom, left, right properties. However, these properties will not work unless the position property set first. They also work differently depending on the position value.
+
+    position:static;
+    HTML elements are positioned static by default.
+
+    Static positioned elements are not affected by the top, down, left, right properties.
+
+    An element with position:static; is not positioned in any special way; it is always positioned according to the normal flow of the page:
+
+    position:absolute;
+    An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+    However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+    
+    Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+
+    position:sticky;
+    An element with position: sticky; is positioned based on the user's scroll position.
+
+    A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+    Note: Internet Explorer does not support sticky positioning. Safari requires a -webkit- prefix (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+    All CSS Positioning Properties:
+
+    bottom - Sets the bottom margin edge for a positioned box
+    clip - Clips an absolute positioned element
+    left - Sets the left margin edge for a positioned box
+    position - Specifies the type of positioning for an element
+    right - Sets the right margin edge for a positioned box
+    top - Sets the top margin edge for a positioned box
+
+
+
+    
